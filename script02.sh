@@ -1,6 +1,4 @@
-sudo modprobe nvidia  # should return no errors
-
-# cuDNN - assumes you already have the tarball in /tmp
+# cuDNN
 wget https://www.dropbox.com/s/n84iy5ac2f5ab9p/cudnn-8.0-linux-x64-v5.1.tar.gz
 mv cudnn-8.0-linux-x64-v5.1.tar.gz cudnn.tar.gz
 tar -xzf cudnn.tar.gz
