@@ -28,7 +28,7 @@ echo "============================================"
 
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
-sudo apt-get install oracle-java8-installer
+sudo apt-get install -y oracle-java8-installer
 
 
 echo "============================================"
@@ -48,7 +48,7 @@ sudo apt-get install -y python-numpy swig python-dev
 
 echo "============================================"
 echo "installing tensorflow itself"
-echo "important configuration sequence (mosly default but last option is important"
+echo "important configuration sequence !!!!!!!!!!!!!!!!!!!(mosly default but last option is important"
 echo "enter>N>N>enter>Y>enter>enter>enter>enter>enter>3.0" 
 echo "make sure to answer 3.0, so it will look like this;" 
 echo "Cuda compute capabilities you want to build with.[Default is: "3.5,5.2"]: 3.0" 

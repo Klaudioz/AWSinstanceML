@@ -59,7 +59,6 @@ echo "export LD_LIBRARY_PATH=/home/ubuntu/mxnet/lib:/usr/local/cuda-7.5/lib64" >
 echo "export PYTHONPATH=$PYTHONPATH:/home/ubuntu/mxnet/python" >> ~/.bashrc
 
 source ~/.bashrc
-exec bash
 
 sudo apt-get install -y python-pip python-setuptools
 cd /home/ubuntu/mxnet/python
